@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- BS SETUP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- JS SETUP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>Exercise 2: Logical Operators</title>
+</head>
+ <body>
+ 	<center>
+  <div class="container mt-5 mb-5">
+	<h1>Area and Circumference of a Circle</h1>
+	<img src="https://mathshistory.st-andrews.ac.uk/Curves/Circle/Circle01.gif">
+
+	<h4>Radius: 5in</h4>
+	<h3 id="info">Click the buttons below to find out the area and circumference of the circle.</h3>
+
+	<!-- Area=pi*(r**2) -->
+	<button type="button" class="btn warning" onClick="
+	const pi=3.14;
+	var r=5;
+	var area=pi*(r**2);
+
+	document.getElementById('info').innerHTML= 'The area of this circle is '+ area +'.'
+
+	">AREA</button>
+
+	<!-- Circumference=2*pi*r -->
+	<button type="button" class="btn danger" onClick=" 
+	const pi=3.14;
+	var r=5;
+	var cir=2*pi*r;
+
+	document.getElementById('info').innerHTML= 'The area of this circle is '+ cir +'.'
+
+	">CIRCUMFERENCE</button>
+
+	<button type="button" class="btn info" onCick="window.location.reload()">REFRESH</button>
+  </div>
+  	</center>
+ </body>
+</html>

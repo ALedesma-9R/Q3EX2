@@ -1,0 +1,64 @@
+body {
+	background-color: skyblue;
+}
+
+div {
+	background-color: whitesmoke;
+	align-items: center;
+	border: 5px solid;
+	border-color: white darkslateblue darkblue darkslateblue;
+	border-radius: 10px;
+}
+
+/* Text */
+h1 {
+	color: blue;
+	background-color: darkorange;
+	margin-top: 25px;
+}
+
+h3 {
+	color: darkblue;
+}
+
+h4 {
+	color: darkorange;
+}
+
+/* Buttons */
+.btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
